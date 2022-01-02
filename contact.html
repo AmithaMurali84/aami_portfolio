@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" type="image/gif/png" href="doc/contact.jpg">
+    <title>contact form</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title> contact</title>
+</head>
+
+<body>
+    <!---top section and navigation buttons-->
+
+
+    <div class="nav">
+
+        <h2 style="color:#3C403D;text-transform: uppercase;">AMITHA MURALI</h2>
+        <div class="navul">
+
+
+            <nav>
+                <ul>
+
+                    <li> <button onclick="location.href='index.html';"><i class="fa fa-fw fa-home"></i>Home</button></li>
+                    <li><button onclick="location.href='About.html';"><i class="fa fa-fw fa-user"></i>About</button></li>
+
+                    <li><button onclick="location.href='Blog.html';"><i class="fa fa-fw fa-weibo"></i>Blog</button></li>
+
+                    <li><button onclick="location.href='contact.html';"><i class="fa fa-fw fa-envelope"></i>Contact</button></li>
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+
+
+
+    <!--link pages-->
+
+
+    <div style="height: 200px;">
+        <div style="display:flex; float:left; width: 100%;">
+
+            <div style="display:flex; float:left; width: 20%;">
+                <a href="Blog.html">
+                    <button style="background-color: #39603D; width:100px;color: #ffffff; border-radius: 16px;"> PRE</button></a>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--form-->
+
+
+
+
+    <form id="frm1" class="formone" method="post" action="#">
+
+        <h3>Contact us</h3>
+        <div class="formgroup">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="inputgroup">
+                <input type="text" id="Name" name="Name" class="formcontrol" required>
+            </div>
+        </div>
+
+        <div class="formgroup">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="inputgroup">
+                <input type="email" id="Email" name="Email" class="formcontrol" required>
+            </div>
+        </div>
+
+        <div class="formgroup">
+            <label for="Country" class="fcf-label">Country</label>
+            <div class="inputgroup">
+                <select id="cntry" name="country" class="formcontrol">
+                        <option>India</option>
+                        <option>Pakisthan</option>
+                        <option>India</option>
+                        <option>Us</option>
+                        <option>Canada</option>
+                        <option selected>Australia</option>
+                        <option>Ireland</option>
+                    </select>
+            </div>
+
+        </div>
+
+        <div class="formgroup">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="inputgroup">
+                <textarea id="Message" name="Message" class="formcontrol" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="formgroup">
+            <button type="submit" id="fcf-button" class="btn1" onclick="reg()">Send Message</button>
+        </div>
+
+
+
+    </form>
+
+
+
+
+
+    <!--footer portion-->
+    <br>
+    <div class="lower" aria-disabled="true">
+        <footer>
+            <p>Author: Amitha Murali<br>
+                <a href="mailto:amitha.com">amithamurali07@gmail.com</a></p>
+        </footer>
+
+    </div>
+
+
+
+</body>
+
+
+</html>

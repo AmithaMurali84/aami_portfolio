@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/gif/png" href="doc/blog.jpg">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="script.js"></script>
+        <title>Blog</title>
+
+
+
+
+
+
+    </head>
+
+    <body>
+
+
+        <div class="nav">
+
+            <h2 style="color:#3C403D;text-transform: uppercase;">AMITHA MURALI</h2>
+            <div class="navul">
+
+
+                <nav>
+                    <ul>
+
+                        <li> <button onclick="location.href='index.html';"><i class="fa fa-fw fa-home"></i>Home</button></li>
+                        <li><button onclick="location.href='About.html';"><i class="fa fa-fw fa-user"></i>About</button></li>
+
+                        <li><button onclick="location.href='Blog.html';"><i class="fa fa-fw fa-weibo"></i>Blog</button></li>
+
+                        <li><button onclick="location.href='contact.html';"><i class="fa fa-fw fa-envelope"></i>Contact</button></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+
+
+        <div>
+            <a href="About.html">
+                <button style="background-color: #39603D; width:100px;color:#ffffff; border-radius: 16px;"> PRE</button></a>
+
+
+            <div style="float: right;">
+                <a href="contact.html">
+                    <button style="background-color: #39603D; width:100px;color: #ffffff; border-radius: 16px;"> NEXT</button></a>
+            </div>
+        </div>
+
+
+
+        <!-- Three columns -->
+        <div class="row">
+            <div class="column" onclick="openTab('b1');" style="color:#3C403D;">
+                Blockchain
+            </div>
+            <div class="column" onclick="openTab('b2');" style="color: #3C403D;">
+                RPA
+            </div>
+            <div class="column" onclick="openTab('b3');" style="color: #3C403D;">
+                Edge Computing
+            </div>
+        </div>
+
+        <!-- Full-width columns: (hidden by default) -->
+        <div id="b1" class="containerTab" style="display:none;">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <h2>Blockchain</h2>
+            <p>Although most people think of blockchain technology in relation to cryptocurrencies such as Bitcoin, blockchain offers security that is useful in many other ways. In the simplest of terms, blockchain can be described as data you can only add
+                to, not take away from or change. Hence the term “chain” because you’re making a chain of data. Not being able to change the previous blocks is what makes it so secure. In addition, blockchains are consensus-driven, so no one entity can
+                take control of the data. With blockchain, you don’t need a trusted third-party to oversee or validate transactions. Several industries are involving and implementing blockchain, and as the use of blockchain technology increases, so too
+                does the demand for skilled professionals. From a birds eye view, a blockchain developer specializes in developing and implementing architecture and solutions using blockchain technology. The average yearly salary of a blockchain developer
+                is ₹469K. </p>
+
+
+            <img src="doc/blockchain.jpg">
+        </div>
+
+        <div id="b2" class="containerTab" style="display:none;">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <h2> Robotic Process Automation (RPA)</h2>
+            <p>Like AI and Machine Learning, Robotic Process Automation, or RPA, is another technology that is automating jobs. RPA is the use of software to automate business processes such as interpreting applications, processing transactions, dealing
+                with data, and even replying to emails. RPA automates repetitive tasks that people used to do. Although Forrester Research estimates RPA automation will threaten the livelihood of 230 million or more knowledge workers or approximately
+                9 percent of the global workforce, RPA is also creating new jobs while altering existing jobs. McKinsey finds that less than 5 percent of occupations can be totally automated, but about 60 percent can be partially automated.
+
+            </p>
+            <img src="doc/rpa.jpg">
+        </div>
+
+        <div id="b3" class="containerTab" style="display:none;">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <h2>Edge Computing</h2>
+            <p>Edge Computing Formerly a new technology trend to watch, cloud computing has become mainstream, with major players AWS (Amazon Web Services), Microsoft Azure and Google Cloud Platform dominating the market. The adoption of cloud computing
+                is still growing, as more and more businesses migrate to a cloud solution. But it’s no longer the emerging technology trend</p>
+            <img src="doc/edge.jpg">
+        </div>
+        <!--footer portion-->
+        <br>
+        <div class="lower" aria-disabled="true">
+            <footer>
+                <p>Author: Amitha Murali<br>
+                    <a href="mailto:amitha.com">amithamurali07@gmail.com</a></p>
+            </footer>
+
+        </div>
+    </body>
+
+    </html>
